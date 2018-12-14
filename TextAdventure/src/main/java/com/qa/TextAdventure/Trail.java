@@ -10,27 +10,30 @@ public class Trail {
 		super();
 		this.tXCoord = tXCoord;
 		this.tYCoord = tYCoord;
-	
-	
+		
 	}
+//	public void getCoord() {
+//	getCoord(getXCoord()getYCoord());
+//	
+	
 
 
-	public Integer gettXCoord() {
+	public Integer getXCoord() {
 		return tXCoord;
 	}
 
 
-	public void settXCoord(Integer tXCoord) {
+	public void setXCoord(Integer tXCoord) {
 		this.tXCoord = tXCoord;
 	}
 
 
-	public Integer gettYCoord() {
+	public Integer getYCoord() {
 		return tYCoord;
 	}
 
 
-	public void settYCoord(Integer tYCoord) {
+	public void setYCoord(Integer tYCoord) {
 		this.tYCoord = tYCoord;
 	}
 	

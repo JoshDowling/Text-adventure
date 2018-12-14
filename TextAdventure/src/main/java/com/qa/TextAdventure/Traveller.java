@@ -21,22 +21,8 @@ public class Traveller {
 
 	public static void newTraveller() {
 
-		
 	}
-	public static void startPos() {
-		Scanner s = new Scanner(System.in);
-    	System.out.println("Enter you name Traveller: [type name] ");
-    	String name = s.nextLine();
-    	System.out.println("What are you Traveller? [type class] ");
-        String clss = s.nextLine();
-        System.out.println("Welcome " + getName() + ", the " + getClass() + "\nAre you ready? \nLet us begin");
-        System.out.println("\nYou are left alone with nothing but your 'Magic' compass, or so the shopkeeper said. \nIt is a small disk that you worked out does not necessarily point north.\n"
-        		+ "Looking around there is no points of reference just a large, damp, grey swamp");
-        
-	}
-	
-	
-	
+
 	public String getName() {
 		return name;
 	}
@@ -69,4 +55,15 @@ public class Traveller {
 		this.pYCoord = pYCoord;
 	}
 
+	public static void startPos() {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter you name Traveller: [type name] ");
+		String name = s.nextLine();
+		System.out.println("What are you Traveller? [type class] ");
+		String clss = s.nextLine();
+		System.out.println("Welcome " + name + ", the " + clss + "\nAre you ready? \nLet us begin");
+		System.out.println(
+				"\nYou are left alone with nothing but your 'Magic' compass, or so the shopkeeper said. \nIt is a small disk that you worked out does not necessarily point north.\n"
+						+ "Looking around there is no points of reference just a large, damp, grey swamp");
+	}
 }
